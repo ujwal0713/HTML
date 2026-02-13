@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Tasks Webpage</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        .task1{
+            font-size: x-large;
+            color: blue;
+        }
+
+        .priority-text{
+            color: green;   
+        }
+
+        .box{
+            background-color: lightcoral;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        #uniqueBox{
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        .container{
+            color: purple;
+        }
+
+        .outside-heading{
+            color:orange;
+        }
+
+        table{
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th{
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+
+    <div class="task1">
+    I am Ujwal E K, a final semester Computer Science and Engineering student with a strong 
+    interest in software development, web technologies, and problem-solving. Throughout my 
+    academic journey, I have worked on various projects that helped me strengthen my knowledge 
+    in programming, data structures, and modern development practices. I am currently gaining 
+    practical industry exposure through my internship, where I apply my technical skills to 
+    real-world challenges. I enjoy continuously learning new technologies, improving my coding 
+    abilities, and building efficient, user-friendly applications. I am a dedicated, self-motivated, 
+    and detail-oriented individual who strives for excellence and is always eager to take on new 
+    challenges that help me grow both technically and professionally.
+    </div>
+
+
+    <h2>Task 2: CSS Priority</h2>
+    <p class="priority-text" style="color: red;">
+        This text uses both internal and inline CSS.
+    </p>
+    <p><b>Result:</b> Inline CSS has higher priority, so the color is <b>red</b>.</p>
+
+
+    <h2>Task 3: Class vs ID</h2>
+
+    <div class="box">Class Box 1</div>
+    <div class="box">Class Box 2</div>
+    <div class="box">Class Box 3</div>
+
+    <div id="uniqueBox">ID Box</div>
+    
+    <h2 class="outside-heading">Heading Outside Container</h2>
+
+    <div class="container">
+        <h2>Heading Inside Container</h2>
+    </div>
+
+    <h2>Task 5: Table</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>USN</th>
+            <th>Branch</th>
+        </tr>
+
+        <tr>
+            <td>Ujwal</td>
+            <td>001</td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>002</td>
+            <td>ISE</td>
+        </tr>
+    </table>
+
+</body>
+</html>
